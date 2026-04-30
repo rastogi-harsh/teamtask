@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Create Project</h2>
+
+    <input type="text" id="projectName" placeholder="Project Name">
+
+    <input type="text" id="projectDescription" placeholder="Description">
+
+    <button onclick="createProject()">Create</button>
+
+    <h2>Projects</h2>
+
+    <div id="projectList"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+    getProjects();
+</script>
+
+</body>
+</html>
